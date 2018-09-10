@@ -1,0 +1,4 @@
+numpy==1.14.3
+Flask==1.0.2
+flask_restful==0.3.6
+scikit_learn==0.19.2
