@@ -37,3 +37,16 @@ $ curl http://127.0.0.1:5000/ -d "query=I love so much that movie" -X GET
 >>> {'positive': '83.81%'}
 ```
 if you want to see the web version of this Movie classifier app go and check http://ayoubelkhallioui.pythonanywhere.com/
+
+* Updated : 
+
+I hosted the API in Pythonanywhere so :
+
+in your terminal:
+```
+$ curl http://ayoubelkhallioui.pythonanywhere.com/ -d "query=I love so much that movie" -X GET 
+```
+or in the browser:
+```
+http://ayoubelkhallioui.pythonanywhere.com/?query="I love so much that movie" 
+```
